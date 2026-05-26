@@ -75,12 +75,12 @@ Fragment 可以理解为"页面片段"，一个 Activity 里面可以放多个 F
 1. 在 Android Studio 左侧项目面板中，右键点击 `com.camera.oam` → **New** → **Fragment** → **Fragment (Blank)**
 2. 按下面的表格创建：
 
-| Fragment 名称 | Fragment 布局文件名 | 菜单标题 |
-|--------------|-------------------|---------|
-| `DiscoveryFragment` | `fragment_discovery` | 发现设备 |
+| Fragment 名称          | Fragment 布局文件名        | 菜单标题 |
+| -------------------- | --------------------- | ---- |
+| `DiscoveryFragment`  | `fragment_discovery`  | 发现设备 |
 | `ConnectionFragment` | `fragment_connection` | 连接状态 |
-| `PreviewFragment` | `fragment_preview` | 视频预览 |
-| `ControlFragment` | `fragment_control` | 设备控制 |
+| `PreviewFragment`    | `fragment_preview`    | 视频预览 |
+| `ControlFragment`    | `fragment_control`    | 设备控制 |
 
 > 创建时 Android Studio 会自动生成两个文件：
 > - `DiscoveryFragment.kt`（代码文件）
