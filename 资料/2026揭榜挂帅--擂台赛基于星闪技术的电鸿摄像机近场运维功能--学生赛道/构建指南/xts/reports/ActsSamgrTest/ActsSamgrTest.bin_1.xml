@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="140" failures="0" disabled="0" errors="0" time="20.532" timestamp="1970-01-01T00:11:54.827" name="AllTests">
+  <testsuite name="BroadcastPublishTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0.67" timestamp="1970-01-01T00:12:00.059">
+    <testcase name="testPublish0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.060" classname="BroadcastPublishTest" level="-1" />
+    <testcase name="testPublish0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.060" classname="BroadcastPublishTest" level="-1" />
+    <testcase name="testPublish0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.060" classname="BroadcastPublishTest" level="-1" />
+    <testcase name="testPublish0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.060" classname="BroadcastPublishTest" level="-1" />
+    <testcase name="testPublish0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.060" classname="BroadcastPublishTest" level="-1" />
+    <testcase name="testPublish0060" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.060" classname="BroadcastPublishTest" level="-1" />
+    <testcase name="testPublish0070" status="run" result="completed" time="0.669" timestamp="1970-01-01T00:12:00.061" classname="BroadcastPublishTest" level="-1" />
+  </testsuite>
+  <testsuite name="BroadcastSubscribeTest" tests="15" failures="0" disabled="0" skipped="0" errors="0" time="0.026" timestamp="1970-01-01T00:12:00.730">
+    <testcase name="testAddTopic0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testAddTopic0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testSubscribe0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testSubscribe0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testSubscribe0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testSubscribe0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testUnsubscribe0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testUnsubscribe0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testUnsubscribe0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testUnsubscribe0040" status="run" result="completed" time="0.025" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testModifyConsumer0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.757" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testModifyConsumer0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.757" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testModifyConsumer0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.757" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testModifyConsumer0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.757" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testModifyConsumer0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.757" classname="BroadcastSubscribeTest" level="-1" />
+  </testsuite>
+  <testsuite name="CommonTest" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="1.882" timestamp="1970-01-01T00:12:00.757">
+    <testcase name="testCommon0010" status="run" result="completed" time="0.202" timestamp="1970-01-01T00:12:00.757" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0020" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:00.960" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0030" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:01.170" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0040" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:01.380" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0050" status="run" result="completed" time="0.21" timestamp="1970-01-01T00:12:01.590" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0060" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:01.800" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0070" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:02.010" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0080" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:02.220" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0090" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:02.430" classname="CommonTest" level="-1" />
+  </testsuite>
+  <testsuite name="DefaultFeatureApiTest" tests="13" failures="0" disabled="0" skipped="0" errors="0" time="0.12" timestamp="1970-01-01T00:12:02.640">
+    <testcase name="testRegisterDefaultFeatureApi0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testRegisterDefaultFeatureApi0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testRegisterDefaultFeatureApi0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testRegisterDefaultFeatureApi0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testRegisterDefaultFeatureApi0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testGetDefaultFeatureApi0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testGetDefaultFeatureApi0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testGetDefaultFeatureApi0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testGetDefaultFeatureApi0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.641" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testUnregisterDefaultFeatureApi0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.641" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testUnregisterDefaultFeatureApi0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.641" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testUnregisterDefaultFeatureApi0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.641" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testUnregisterDefaultFeatureApi0040" status="run" result="completed" time="0.118" timestamp="1970-01-01T00:12:02.641" classname="DefaultFeatureApiTest" level="-1" />
+  </testsuite>
+  <testsuite name="FeatureApiTest" tests="20" failures="0" disabled="0" skipped="0" errors="0" time="0.044" timestamp="1970-01-01T00:12:02.760">
+    <testcase name="testRegisterFeatureApi0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testRegisterFeatureApi0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testRegisterFeatureApi0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testRegisterFeatureApi0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testRegisterFeatureApi0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testRegisterFeatureApi0060" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testRegisterFeatureApi0070" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testRegisterFeatureApi0080" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testGetFeatureApi0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.761" classname="FeatureApiTest" level="-1" />
+    <testcase name="testGetFeatureApi0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.761" classname="FeatureApiTest" level="-1" />
+    <testcase name="testGetFeatureApi0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.761" classname="FeatureApiTest" level="-1" />
+    <testcase name="testGetFeatureApi0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.761" classname="FeatureApiTest" level="-1" />
+    <testcase name="testGetFeatureApi0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.761" classname="FeatureApiTest" level="-1" />
+    <testcase name="testGetFeatureApi0060" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.761" classname="FeatureApiTest" level="-1" />
+    <testcase name="testUnregisterFeatureApi0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.761" classname="FeatureApiTest" level="-1" />
+    <testcase name="testUnregisterFeatureApi0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.762" classname="FeatureApiTest" level="-1" />
+    <testcase name="testUnregisterFeatureApi0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.762" classname="FeatureApiTest" level="-1" />
+    <testcase name="testUnregisterFeatureApi0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.762" classname="FeatureApiTest" level="-1" />
+    <testcase name="testUnregisterFeatureApi0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.762" classname="FeatureApiTest" level="-1" />
+    <testcase name="testUnregisterFeatureApi0060" status="run" result="completed" time="0.042" timestamp="1970-01-01T00:12:02.762" classname="FeatureApiTest" level="-1" />
+  </testsuite>
+  <testsuite name="FeatureTest" tests="13" failures="0" disabled="0" skipped="0" errors="0" time="0.456" timestamp="1970-01-01T00:12:02.805">
+    <testcase name="testRegisterFeature0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.805" classname="FeatureTest" level="-1" />
+    <testcase name="testRegisterFeature0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.805" classname="FeatureTest" level="-1" />
+    <testcase name="testRegisterFeature0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.805" classname="FeatureTest" level="-1" />
+    <testcase name="testRegisterFeature0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.805" classname="FeatureTest" level="-1" />
+    <testcase name="testRegisterFeature0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.805" classname="FeatureTest" level="-1" />
+    <testcase name="testRegisterFeature0060" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.805" classname="FeatureTest" level="-1" />
+    <testcase name="testUnregisterFeature0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.806" classname="FeatureTest" level="-1" />
+    <testcase name="testUnregisterFeature0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.806" classname="FeatureTest" level="-1" />
+    <testcase name="testUnregisterFeature0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.806" classname="FeatureTest" level="-1" />
+    <testcase name="testUnregisterFeature0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.806" classname="FeatureTest" level="-1" />
+    <testcase name="testUnregisterFeature0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.806" classname="FeatureTest" level="-1" />
+    <testcase name="testUnregisterFeature0060" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.806" classname="FeatureTest" level="-1" />
+    <testcase name="testUnregisterFeature0070" status="run" result="completed" time="0.111" timestamp="1970-01-01T00:12:03.150" classname="FeatureTest" level="-1" />
+  </testsuite>
+  <testsuite name="IUnknownTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="1970-01-01T00:12:03.261">
+    <testcase name="testGetIUnknown0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.262" classname="IUnknownTest" level="-1" />
+    <testcase name="testGetObject0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.262" classname="IUnknownTest" level="-1" />
+    <testcase name="testQueryInterface0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.262" classname="IUnknownTest" level="-1" />
+    <testcase name="testQueryInterface0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.262" classname="IUnknownTest" level="-1" />
+    <testcase name="testQueryInterface0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.262" classname="IUnknownTest" level="-1" />
+  </testsuite>
+  <testsuite name="LiteIPCClientTest" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0.011" timestamp="1970-01-01T00:12:03.262">
+    <testcase name="testIPCClient0010" status="run" result="completed" time="0.007" timestamp="1970-01-01T00:12:03.262" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.270" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.271" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.271" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0060" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.272" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0070" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.272" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0100" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.273" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0110" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.273" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0120" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.273" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0130" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.273" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0140" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.274" classname="LiteIPCClientTest" level="-1" />
+  </testsuite>
+  <testsuite name="LiteIPCFeatureTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.832" timestamp="1970-01-01T00:12:03.618">
+    <testcase name="testIPCFeature0010" status="run" result="completed" time="0.201" timestamp="1970-01-01T00:12:03.618" classname="LiteIPCFeatureTest" level="-1" />
+    <testcase name="testIPCFeature0020" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:03.820" classname="LiteIPCFeatureTest" level="-1" />
+    <testcase name="testIPCFeature0030" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:04.030" classname="LiteIPCFeatureTest" level="-1" />
+    <testcase name="testIPCFeature0040" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:04.240" classname="LiteIPCFeatureTest" level="-1" />
+  </testsuite>
+  <testsuite name="LiteIPCServiceTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="1.049" timestamp="1970-01-01T00:12:04.450">
+    <testcase name="testIPCService0010" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:04.450" classname="LiteIPCServiceTest" level="-1" />
+    <testcase name="testIPCService0020" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:04.660" classname="LiteIPCServiceTest" level="-1" />
+    <testcase name="testIPCService0030" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:04.870" classname="LiteIPCServiceTest" level="-1" />
+    <testcase name="testIPCService0040" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:05.080" classname="LiteIPCServiceTest" level="-1" />
+    <testcase name="testIPCService0050" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:05.290" classname="LiteIPCServiceTest" level="-1" />
+  </testsuite>
+  <testsuite name="SendRequestTest" tests="10" failures="0" disabled="0" skipped="0" errors="0" time="2.201" timestamp="1970-01-01T00:12:05.500">
+    <testcase name="testSyncCall0010" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:05.500" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0010" status="run" result="completed" time="0.218" timestamp="1970-01-01T00:12:05.710" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0020" status="run" result="completed" time="0.201" timestamp="1970-01-01T00:12:05.928" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0030" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:06.130" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0040" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:06.340" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0050" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:06.550" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0060" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:06.760" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0070" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:06.970" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0080" status="run" result="completed" time="0.251" timestamp="1970-01-01T00:12:07.180" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0090" status="run" result="completed" time="0.269" timestamp="1970-01-01T00:12:07.431" classname="SendRequestTest" level="-1" />
+  </testsuite>
+  <testsuite name="SendResponseTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.838" timestamp="1970-01-01T00:12:07.701">
+    <testcase name="testSendResponse0010" status="run" result="completed" time="0.208" timestamp="1970-01-01T00:12:07.701" classname="SendResponseTest" level="-1" />
+    <testcase name="testSendResponse0020" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:07.910" classname="SendResponseTest" level="-1" />
+    <testcase name="testSendResponse0030" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:08.120" classname="SendResponseTest" level="-1" />
+    <testcase name="testSendResponseByIdentity0020" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:08.330" classname="SendResponseTest" level="-1" />
+  </testsuite>
+  <testsuite name="SendShareRequestTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.839" timestamp="1970-01-01T00:12:08.540">
+    <testcase name="testSendSharedRequest0010" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:08.540" classname="SendShareRequestTest" level="-1" />
+    <testcase name="testSendSharedDirectRequest0010" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:08.960" classname="SendShareRequestTest" level="-1" />
+  </testsuite>
+  <testsuite name="ServiceTest" tests="10" failures="0" disabled="0" skipped="0" errors="0" time="0.099" timestamp="1970-01-01T00:12:09.380">
+    <testcase name="testRegisterService0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testRegisterService0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testRegisterService0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testUnregisterService0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testUnregisterService0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testUnregisterService0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testUnregisterService0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testUnregisterService0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testUnregisterService0060" status="run" result="completed" time="0.078" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testBootstrap0010" status="run" result="completed" time="0.021" timestamp="1970-01-01T00:12:09.458" classname="ServiceTest" level="-1" />
+  </testsuite>
+  <testsuite name="TaskpoolNoTaskTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.209" timestamp="1970-01-01T00:12:09.480">
+    <testcase name="testNoTask0010" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:09.480" classname="TaskpoolNoTaskTest" level="-1" />
+  </testsuite>
+  <testsuite name="TaskpoolSharedTaskTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="2.099" timestamp="1970-01-01T00:12:09.690">
+    <testcase name="testSharedTask0010" status="run" result="completed" time="0.629" timestamp="1970-01-01T00:12:09.690" classname="TaskpoolSharedTaskTest" level="-1" />
+    <testcase name="testSharedTask0020" status="run" result="completed" time="0.629" timestamp="1970-01-01T00:12:10.320" classname="TaskpoolSharedTaskTest" level="-1" />
+    <testcase name="testSharedTask0030" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:10.950" classname="TaskpoolSharedTaskTest" level="-1" />
+    <testcase name="testSharedTask0040" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:11.370" classname="TaskpoolSharedTaskTest" level="-1" />
+  </testsuite>
+  <testsuite name="TaskpoolSingleTaskTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="1.68" timestamp="1970-01-01T00:12:11.999">
+    <testcase name="testSingleTask0010" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:12.000" classname="TaskpoolSingleTaskTest" level="-1" />
+    <testcase name="testSingleTask0020" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:12.420" classname="TaskpoolSingleTaskTest" level="-1" />
+    <testcase name="testSingleTask0030" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:12.840" classname="TaskpoolSingleTaskTest" level="-1" />
+    <testcase name="testSingleTask0040" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:13.260" classname="TaskpoolSingleTaskTest" level="-1" />
+  </testsuite>
+  <testsuite name="TaskpoolSpecifiedTaskTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="1.679" timestamp="1970-01-01T00:12:13.680">
+    <testcase name="testSpecifiedTask0010" status="run" result="completed" time="0.629" timestamp="1970-01-01T00:12:13.680" classname="TaskpoolSpecifiedTaskTest" level="-1" />
+    <testcase name="testSpecifiedTask0020" status="run" result="completed" time="0.629" timestamp="1970-01-01T00:12:14.310" classname="TaskpoolSpecifiedTaskTest" level="-1" />
+    <testcase name="testSpecifiedTask0030" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:14.940" classname="TaskpoolSpecifiedTaskTest" level="-1" />
+  </testsuite>
+</testsuites>

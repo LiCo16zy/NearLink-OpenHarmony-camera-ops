@@ -1,0 +1,420 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name="summary_report" starttime="2026-05-19 09:13:39" endtime="2026-05-19 09:17:45" errors="0" disabled="0" failures="0" tests="333" ignored="0" unavailable="0" productinfo="{'Product Type': 'default', 'manuFacture': 'HISILICON', 'brand': 'HISILICON', 'marketName': 'Hi3519DV500', 'productSeries': 'Hi3519DV500', 'softwareModel': '1.0.0', 'HardwareModel': 'Hi3519DV500DMEB', 'HardwareProfile': 'aout:true,display:true,camera:true', 'serial': '90014a483847346192a100b18eaa5700', 'osName': 'OpenHarmony-4.0.10.13', 'OS Version': '1.0.0', 'bootloaderVersion': 'bootloader', 'Security Patch': '2024/05/01', 'AbiList': '****', 'sdkApiLevel': '10', 'firstApiLevel': '1', 'VersionID': 'default/HISILICON/HISILICON/Hi3519DV500/OpenHarmony-4.0.10.13/Hi3519DV500/1.0.0/10/default/release:nolog', 'buildType': 'release:nolog', 'buildUser': 'default', 'buildHost': 'default', 'buildTime': 'default', 'BuildRootHash': 'default', 'version': 'OpenHarmony-ACTS-1.0.1'}" modules="5" runmodules="5">
+  <testsuite name="SamgrApiTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0.003" timestamp="1970-01-01T00:14:42.522" modulename="ActsBootstrapTest">
+    <testcase name="SUB_START_Bootstrap_Samgr_0100" status="run" result="completed" time="0" timestamp="1970-01-01T00:14:42.522" classname="SamgrApiTest" level="-1" />
+    <testcase name="SUB_START_Bootstrap_Samgr_0200" status="run" result="completed" time="0" timestamp="1970-01-01T00:14:42.522" classname="SamgrApiTest" level="-1" />
+    <testcase name="SUB_START_Bootstrap_Samgr_0300" status="run" result="completed" time="0" timestamp="1970-01-01T00:14:42.523" classname="SamgrApiTest" level="-1" />
+    <testcase name="SUB_START_Bootstrap_Samgr_0400" status="run" result="completed" time="0" timestamp="1970-01-01T00:14:42.523" classname="SamgrApiTest" level="-1" />
+    <testcase name="SUB_START_Bootstrap_Samgr_0500" status="run" result="completed" time="0" timestamp="1970-01-01T00:14:42.524" classname="SamgrApiTest" level="-1" />
+    <testcase name="SUB_START_Bootstrap_Samgr_0600" status="run" result="completed" time="0" timestamp="1970-01-01T00:14:42.525" classname="SamgrApiTest" level="-1" />
+    <testcase name="SUB_START_Bootstrap_Samgr_0700" status="run" result="completed" time="0" timestamp="1970-01-01T00:14:42.525" classname="SamgrApiTest" level="-1" />
+  </testsuite>
+  <testsuite name="HksAesTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="2.682" timestamp="1970-01-01T00:12:52.451" modulename="ActsHuksLiteFunctionTest">
+    <testcase name="HksAesTest001" status="run" result="completed" time="0.764" timestamp="1970-01-01T00:12:52.451" classname="HksAesTest" level="1" />
+    <testcase name="HksAesTest002" status="run" result="completed" time="0.798" timestamp="1970-01-01T00:12:53.216" classname="HksAesTest" level="1" />
+    <testcase name="HksAesTest003" status="run" result="completed" time="0.774" timestamp="1970-01-01T00:12:54.015" classname="HksAesTest" level="1" />
+    <testcase name="HksAesTest004" status="run" result="completed" time="0.344" timestamp="1970-01-01T00:12:54.789" classname="HksAesTest" level="1" />
+  </testsuite>
+  <testsuite name="HksAgreementTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.466" timestamp="1970-01-01T00:12:55.134" modulename="ActsHuksLiteFunctionTest">
+    <testcase name="HksAgreementTest001" status="run" result="completed" time="0.081" timestamp="1970-01-01T00:12:55.134" classname="HksAgreementTest" level="1" />
+    <testcase name="HksAgreementTest002" status="run" result="completed" time="0.121" timestamp="1970-01-01T00:12:55.478" classname="HksAgreementTest" level="1" />
+  </testsuite>
+  <testsuite name="HksBnExpModTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.159" timestamp="1970-01-01T00:12:55.600" modulename="ActsHuksLiteFunctionTest">
+    <testcase name="HksBnExpModTest001" status="run" result="completed" time="0.159" timestamp="1970-01-01T00:12:55.600" classname="HksBnExpModTest" level="1" />
+  </testsuite>
+  <testsuite name="HksCipherTest" tests="12" failures="0" disabled="0" skipped="0" errors="0" time="3.539" timestamp="1970-01-01T00:12:55.760" modulename="ActsHuksLiteFunctionTest">
+    <testcase name="HksCipherTest001" status="run" result="completed" time="0.008" timestamp="1970-01-01T00:12:55.760" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest002" status="run" result="completed" time="0.02" timestamp="1970-01-01T00:12:55.768" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest003" status="run" result="completed" time="0.017" timestamp="1970-01-01T00:12:56.115" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest004" status="run" result="completed" time="0.017" timestamp="1970-01-01T00:12:56.463" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest005" status="run" result="completed" time="0.017" timestamp="1970-01-01T00:12:56.815" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest006" status="run" result="completed" time="0.017" timestamp="1970-01-01T00:12:57.168" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest007" status="run" result="completed" time="0.018" timestamp="1970-01-01T00:12:57.523" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest008" status="run" result="completed" time="0.018" timestamp="1970-01-01T00:12:57.880" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest009" status="run" result="completed" time="0.018" timestamp="1970-01-01T00:12:58.236" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest010" status="run" result="completed" time="0.016" timestamp="1970-01-01T00:12:58.254" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest011" status="run" result="completed" time="0.014" timestamp="1970-01-01T00:12:58.599" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest012" status="run" result="completed" time="0.017" timestamp="1970-01-01T00:12:58.947" classname="HksCipherTest" level="1" />
+  </testsuite>
+  <testsuite name="HksCurve25519Test" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="1.496" timestamp="1970-01-01T00:12:59.300" modulename="ActsHuksLiteFunctionTest">
+    <testcase name="HksCurve25519Test001" status="run" result="completed" time="0.413" timestamp="1970-01-01T00:12:59.300" classname="HksCurve25519Test" level="1" />
+    <testcase name="HksCurve25519Test002" status="run" result="completed" time="0.037" timestamp="1970-01-01T00:13:00.050" classname="HksCurve25519Test" level="1" />
+    <testcase name="HksCurve25519Test003" status="run" result="completed" time="0.355" timestamp="1970-01-01T00:13:00.088" classname="HksCurve25519Test" level="1" />
+    <testcase name="HksCurve25519Test004" status="run" result="completed" time="0.014" timestamp="1970-01-01T00:13:00.443" classname="HksCurve25519Test" level="1" />
+  </testsuite>
+  <testsuite name="HksDeleteTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.012" timestamp="1970-01-01T00:13:00.796" modulename="ActsHuksLiteFunctionTest">
+    <testcase name="HksDeleteTest001" status="run" result="completed" time="0.012" timestamp="1970-01-01T00:13:00.796" classname="HksDeleteTest" level="1" />
+  </testsuite>
+  <testsuite name="HksDeriveTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.353" timestamp="1970-01-01T00:13:00.808" modulename="ActsHuksLiteFunctionTest">
+    <testcase name="HksDeriveTest001" status="run" result="completed" time="0.013" timestamp="1970-01-01T00:13:00.808" classname="HksDeriveTest" level="1" />
+    <testcase name="HksDeriveTest002" status="run" result="completed" time="0.002" timestamp="1970-01-01T00:13:01.159" classname="HksDeriveTest" level="1" />
+  </testsuite>
+  <testsuite name="HksExistTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.35" timestamp="1970-01-01T00:13:01.162" modulename="ActsHuksLiteFunctionTest">
+    <testcase name="HksExistTest001" status="run" result="completed" time="0.012" timestamp="1970-01-01T00:13:01.162" classname="HksExistTest" level="1" />
+  </testsuite>
+  <testsuite name="HksGenerateKeyTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.023" timestamp="1970-01-01T00:13:01.512" modulename="ActsHuksLiteFunctionTest">
+    <testcase name="HksGenerateKeyTest001" status="run" result="completed" time="0.023" timestamp="1970-01-01T00:13:01.512" classname="HksGenerateKeyTest" level="1" />
+  </testsuite>
+  <testsuite name="HksGenerateRandomTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="1970-01-01T00:13:01.535" modulename="ActsHuksLiteFunctionTest">
+    <testcase name="HksGenerateRandomTest001" status="run" result="completed" time="0.002" timestamp="1970-01-01T00:13:01.535" classname="HksGenerateRandomTest" level="1" />
+  </testsuite>
+  <testsuite name="HksHashTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="1970-01-01T00:13:01.538" modulename="ActsHuksLiteFunctionTest">
+    <testcase name="HksHashTest001" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:01.538" classname="HksHashTest" level="1" />
+  </testsuite>
+  <testsuite name="HksMacTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.36" timestamp="1970-01-01T00:13:01.539" modulename="ActsHuksLiteFunctionTest">
+    <testcase name="HksMacTest001" status="run" result="completed" time="0.002" timestamp="1970-01-01T00:13:01.539" classname="HksMacTest" level="1" />
+    <testcase name="HksMacTest002" status="run" result="completed" time="0.358" timestamp="1970-01-01T00:13:01.541" classname="HksMacTest" level="1" />
+  </testsuite>
+  <testsuite name="HksOthersTest" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="1970-01-01T00:13:01.900" modulename="ActsHuksLiteFunctionTest">
+    <testcase name="HksOthersTest001" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+    <testcase name="HksOthersTest002" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+    <testcase name="HksOthersTest003" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+    <testcase name="HksOthersTest004" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+    <testcase name="HksOthersTest005" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+    <testcase name="HksOthersTest006" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+    <testcase name="HksOthersTest007" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+    <testcase name="HksOthersTest008" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+  </testsuite>
+  <testsuite name="ParameterTest" tests="17" failures="0" disabled="0" skipped="0" errors="0" time="0.361" timestamp="1970-01-01T00:15:22.584" modulename="ActsParameterTest">
+    <testcase name="SUB_START_Para_Setting_Legal_0010" status="run" result="completed" time="0.071" timestamp="1970-01-01T00:15:22.584" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Setting_Legal_0020" status="run" result="completed" time="0.142" timestamp="1970-01-01T00:15:22.656" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Setting_ilLegal_0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.798" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Setting_ilLegal_0020" status="run" result="completed" time="0.062" timestamp="1970-01-01T00:15:22.798" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Setting_ilLegal_key_0010" status="run" result="completed" time="0.082" timestamp="1970-01-01T00:15:22.861" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Setting_ilLegal_key_0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.943" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Setting_ilLegal_value_0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_Legal_0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_Legal_0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_Legal_0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_ilLegal_0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_ilLegal_0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_ilLegal_0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_ilLegal_0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_ilLegal_0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.945" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_ilLegal_0060" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.945" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_ReadOnly_0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.945" classname="ParameterTest" level="-1" />
+  </testsuite>
+  <testsuite name="ActsPMSCheckTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.017" timestamp="1970-01-01T00:13:42.463" modulename="ActsPMSTest">
+    <testcase name="testSecPMPMS_1390" status="run" result="completed" time="0.003" timestamp="1970-01-01T00:13:42.463" classname="ActsPMSCheckTest" level="-1" />
+    <testcase name="testSecPMPMS_1400" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:42.467" classname="ActsPMSCheckTest" level="-1" />
+    <testcase name="testSecPMPMS_1410" status="run" result="completed" time="0.012" timestamp="1970-01-01T00:13:42.468" classname="ActsPMSCheckTest" level="-1" />
+    <testcase name="testSecPMPMS_1420" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.480" classname="ActsPMSCheckTest" level="-1" />
+  </testsuite>
+  <testsuite name="ActsPMSDeleteTest" tests="12" failures="0" disabled="0" skipped="0" errors="0" time="0.056" timestamp="1970-01-01T00:13:42.481" modulename="ActsPMSTest">
+    <testcase name="testSecPMPMS_0200" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.481" classname="ActsPMSDeleteTest" level="-1" />
+    <testcase name="testSecPMPMS_0210" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.482" classname="ActsPMSDeleteTest" level="-1" />
+    <testcase name="testSecPMPMS_0230" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.483" classname="ActsPMSDeleteTest" level="-1" />
+    <testcase name="testSecPMPMS_0250" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.483" classname="ActsPMSDeleteTest" level="-1" />
+    <testcase name="testSecPMPMS_0260" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.484" classname="ActsPMSDeleteTest" level="-1" />
+    <testcase name="testSecPMPMS_0270" status="run" result="completed" time="0.018" timestamp="1970-01-01T00:13:42.485" classname="ActsPMSDeleteTest" level="-1" />
+    <testcase name="testSecPMPMS_0280" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.504" classname="ActsPMSDeleteTest" level="-1" />
+    <testcase name="testSecPMPMS_0290" status="run" result="completed" time="0.007" timestamp="1970-01-01T00:13:42.505" classname="ActsPMSDeleteTest" level="-1" />
+    <testcase name="testSecPMPMS_0300" status="run" result="completed" time="0.002" timestamp="1970-01-01T00:13:42.512" classname="ActsPMSDeleteTest" level="-1" />
+    <testcase name="testSecPMPMS_0310" status="run" result="completed" time="0.02" timestamp="1970-01-01T00:13:42.515" classname="ActsPMSDeleteTest" level="-1" />
+    <testcase name="testSecPMPMS_0420" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.536" classname="ActsPMSDeleteTest" level="-1" />
+    <testcase name="testSecPMPMS_0500" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:42.537" classname="ActsPMSDeleteTest" level="-1" />
+  </testsuite>
+  <testsuite name="ActsPMSGrantRuntimeTest" tests="13" failures="0" disabled="0" skipped="0" errors="0" time="0.214" timestamp="1970-01-01T00:13:42.538" modulename="ActsPMSTest">
+    <testcase name="testSecPMPMS_0960" status="run" result="completed" time="0.003" timestamp="1970-01-01T00:13:42.538" classname="ActsPMSGrantRuntimeTest" level="-1" />
+    <testcase name="testSecPMPMS_0970" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.542" classname="ActsPMSGrantRuntimeTest" level="-1" />
+    <testcase name="testSecPMPMS_0980" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:42.543" classname="ActsPMSGrantRuntimeTest" level="-1" />
+    <testcase name="testSecPMPMS_0990" status="run" result="completed" time="0.002" timestamp="1970-01-01T00:13:42.544" classname="ActsPMSGrantRuntimeTest" level="-1" />
+    <testcase name="testSecPMPMS_1000" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.547" classname="ActsPMSGrantRuntimeTest" level="-1" />
+    <testcase name="testSecPMPMS_1010" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:42.548" classname="ActsPMSGrantRuntimeTest" level="-1" />
+    <testcase name="testSecPMPMS_1020" status="run" result="completed" time="0.007" timestamp="1970-01-01T00:13:42.549" classname="ActsPMSGrantRuntimeTest" level="-1" />
+    <testcase name="testSecPMPMS_1030" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.557" classname="ActsPMSGrantRuntimeTest" level="-1" />
+    <testcase name="testSecPMPMS_1180" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:42.558" classname="ActsPMSGrantRuntimeTest" level="-1" />
+    <testcase name="testSecPMPMS_1190" status="run" result="completed" time="0.003" timestamp="1970-01-01T00:13:42.560" classname="ActsPMSGrantRuntimeTest" level="-1" />
+    <testcase name="testSecPMPMS_1200" status="run" result="completed" time="0.188" timestamp="1970-01-01T00:13:42.563" classname="ActsPMSGrantRuntimeTest" level="-1" />
+    <testcase name="testSecPMPMS_1300" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.752" classname="ActsPMSGrantRuntimeTest" level="-1" />
+    <testcase name="testSecPMPMS_1330" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.752" classname="ActsPMSGrantRuntimeTest" level="-1" />
+  </testsuite>
+  <testsuite name="ActsPMSGrantTest" tests="12" failures="0" disabled="0" skipped="0" errors="0" time="0.237" timestamp="1970-01-01T00:13:42.753" modulename="ActsPMSTest">
+    <testcase name="testSecPMPMS_1040" status="run" result="completed" time="0.006" timestamp="1970-01-01T00:13:42.753" classname="ActsPMSGrantTest" level="-1" />
+    <testcase name="testSecPMPMS_1050" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:42.760" classname="ActsPMSGrantTest" level="-1" />
+    <testcase name="testSecPMPMS_1060" status="run" result="completed" time="0.008" timestamp="1970-01-01T00:13:42.762" classname="ActsPMSGrantTest" level="-1" />
+    <testcase name="testSecPMPMS_1070" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.771" classname="ActsPMSGrantTest" level="-1" />
+    <testcase name="testSecPMPMS_1080" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.771" classname="ActsPMSGrantTest" level="-1" />
+    <testcase name="testSecPMPMS_1090" status="run" result="completed" time="0.011" timestamp="1970-01-01T00:13:42.772" classname="ActsPMSGrantTest" level="-1" />
+    <testcase name="testSecPMPMS_1100" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.783" classname="ActsPMSGrantTest" level="-1" />
+    <testcase name="testSecPMPMS_1220" status="run" result="completed" time="0.006" timestamp="1970-01-01T00:13:42.784" classname="ActsPMSGrantTest" level="-1" />
+    <testcase name="testSecPMPMS_1230" status="run" result="completed" time="0.009" timestamp="1970-01-01T00:13:42.791" classname="ActsPMSGrantTest" level="-1" />
+    <testcase name="testSecPMPMS_1240" status="run" result="completed" time="0.188" timestamp="1970-01-01T00:13:42.800" classname="ActsPMSGrantTest" level="-1" />
+    <testcase name="testSecPMPMS_1310" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.989" classname="ActsPMSGrantTest" level="-1" />
+    <testcase name="testSecPMPMS_1340" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.990" classname="ActsPMSGrantTest" level="-1" />
+  </testsuite>
+  <testsuite name="ActsPMSLoadTest" tests="22" failures="0" disabled="0" skipped="0" errors="0" time="0.11" timestamp="1970-01-01T00:13:42.991" modulename="ActsPMSTest">
+    <testcase name="testSecPMPMS_0510" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:42.991" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0520" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:42.992" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0530" status="run" result="completed" time="0.006" timestamp="1970-01-01T00:13:42.993" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0540" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.000" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0550" status="run" result="completed" time="0.018" timestamp="1970-01-01T00:13:43.002" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0560" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.020" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0570" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.021" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0580" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.022" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0630" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.023" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0650" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.023" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0670" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.025" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0680" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.026" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0690" status="run" result="completed" time="0.012" timestamp="1970-01-01T00:13:43.027" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0700" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.039" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0710" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.041" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0720" status="run" result="completed" time="0.007" timestamp="1970-01-01T00:13:43.042" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0730" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.050" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0740" status="run" result="completed" time="0.002" timestamp="1970-01-01T00:13:43.052" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0830" status="run" result="completed" time="0.044" timestamp="1970-01-01T00:13:43.054" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0850" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.099" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0860" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.099" classname="ActsPMSLoadTest" level="-1" />
+    <testcase name="testSecPMPMS_0880" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.100" classname="ActsPMSLoadTest" level="-1" />
+  </testsuite>
+  <testsuite name="ActsPMSRevokeTest" tests="12" failures="0" disabled="0" skipped="0" errors="0" time="0.272" timestamp="1970-01-01T00:13:43.101" modulename="ActsPMSTest">
+    <testcase name="testSecPMPMS_1110" status="run" result="completed" time="0.002" timestamp="1970-01-01T00:13:43.101" classname="ActsPMSRevokeTest" level="-1" />
+    <testcase name="testSecPMPMS_1120" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.104" classname="ActsPMSRevokeTest" level="-1" />
+    <testcase name="testSecPMPMS_1130" status="run" result="completed" time="0.012" timestamp="1970-01-01T00:13:43.106" classname="ActsPMSRevokeTest" level="-1" />
+    <testcase name="testSecPMPMS_1140" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.119" classname="ActsPMSRevokeTest" level="-1" />
+    <testcase name="testSecPMPMS_1150" status="run" result="completed" time="0.01" timestamp="1970-01-01T00:13:43.119" classname="ActsPMSRevokeTest" level="-1" />
+    <testcase name="testSecPMPMS_1160" status="run" result="completed" time="0.053" timestamp="1970-01-01T00:13:43.130" classname="ActsPMSRevokeTest" level="-1" />
+    <testcase name="testSecPMPMS_1170" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.184" classname="ActsPMSRevokeTest" level="-1" />
+    <testcase name="testSecPMPMS_1260" status="run" result="completed" time="0.005" timestamp="1970-01-01T00:13:43.185" classname="ActsPMSRevokeTest" level="-1" />
+    <testcase name="testSecPMPMS_1270" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.191" classname="ActsPMSRevokeTest" level="-1" />
+    <testcase name="testSecPMPMS_1280" status="run" result="completed" time="0.18" timestamp="1970-01-01T00:13:43.192" classname="ActsPMSRevokeTest" level="-1" />
+    <testcase name="testSecPMPMS_1320" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.373" classname="ActsPMSRevokeTest" level="-1" />
+    <testcase name="testSecPMPMS_1350" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.373" classname="ActsPMSRevokeTest" level="-1" />
+  </testsuite>
+  <testsuite name="ActsPMSSaveTest" tests="31" failures="0" disabled="0" skipped="0" errors="0" time="0.122" timestamp="1970-01-01T00:13:43.374" modulename="ActsPMSTest">
+    <testcase name="testSecPMPMS_0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.374" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.374" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0030" status="run" result="completed" time="0.003" timestamp="1970-01-01T00:13:43.375" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.379" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0050" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.379" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0060" status="run" result="completed" time="0.002" timestamp="1970-01-01T00:13:43.381" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0070" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.383" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0080" status="run" result="completed" time="0.002" timestamp="1970-01-01T00:13:43.384" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0090" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.386" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0100" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.387" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0110" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.388" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0120" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.389" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0130" status="run" result="completed" time="0.009" timestamp="1970-01-01T00:13:43.390" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0140" status="run" result="completed" time="0.007" timestamp="1970-01-01T00:13:43.400" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0150" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.407" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0160" status="run" result="completed" time="0.009" timestamp="1970-01-01T00:13:43.409" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0170" status="run" result="completed" time="0.005" timestamp="1970-01-01T00:13:43.419" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0180" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.424" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0190" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.427" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0220" status="run" result="completed" time="0.009" timestamp="1970-01-01T00:13:43.428" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0240" status="run" result="completed" time="0.008" timestamp="1970-01-01T00:13:43.437" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0320" status="run" result="completed" time="0.008" timestamp="1970-01-01T00:13:43.446" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0330" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.455" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0340" status="run" result="completed" time="0.008" timestamp="1970-01-01T00:13:43.456" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0350" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.464" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0360" status="run" result="completed" time="0.002" timestamp="1970-01-01T00:13:43.465" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0370" status="run" result="completed" time="0.003" timestamp="1970-01-01T00:13:43.468" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0380" status="run" result="completed" time="0.021" timestamp="1970-01-01T00:13:43.472" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0390" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.494" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0410" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.494" classname="ActsPMSSaveTest" level="-1" />
+    <testcase name="testSecPMPMS_0490" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.495" classname="ActsPMSSaveTest" level="-1" />
+  </testsuite>
+  <testsuite name="ActsPMSUnloadTest" tests="16" failures="0" disabled="0" skipped="0" errors="0" time="0.04" timestamp="1970-01-01T00:13:43.497" modulename="ActsPMSTest">
+    <testcase name="testSecPMPMS_0590" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.497" classname="ActsPMSUnloadTest" level="-1" />
+    <testcase name="testSecPMPMS_0600" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.498" classname="ActsPMSUnloadTest" level="-1" />
+    <testcase name="testSecPMPMS_0610" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.499" classname="ActsPMSUnloadTest" level="-1" />
+    <testcase name="testSecPMPMS_0620" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.499" classname="ActsPMSUnloadTest" level="-1" />
+    <testcase name="testSecPMPMS_0640" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.499" classname="ActsPMSUnloadTest" level="-1" />
+    <testcase name="testSecPMPMS_0660" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.501" classname="ActsPMSUnloadTest" level="-1" />
+    <testcase name="testSecPMPMS_0750" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.503" classname="ActsPMSUnloadTest" level="-1" />
+    <testcase name="testSecPMPMS_0760" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.504" classname="ActsPMSUnloadTest" level="-1" />
+    <testcase name="testSecPMPMS_0770" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.504" classname="ActsPMSUnloadTest" level="-1" />
+    <testcase name="testSecPMPMS_0780" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.505" classname="ActsPMSUnloadTest" level="-1" />
+    <testcase name="testSecPMPMS_0790" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.506" classname="ActsPMSUnloadTest" level="-1" />
+    <testcase name="testSecPMPMS_0800" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.507" classname="ActsPMSUnloadTest" level="-1" />
+    <testcase name="testSecPMPMS_0810" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.509" classname="ActsPMSUnloadTest" level="-1" />
+    <testcase name="testSecPMPMS_0820" status="run" result="completed" time="0.002" timestamp="1970-01-01T00:13:43.511" classname="ActsPMSUnloadTest" level="-1" />
+    <testcase name="testSecPMPMS_0840" status="run" result="completed" time="0.021" timestamp="1970-01-01T00:13:43.513" classname="ActsPMSUnloadTest" level="-1" />
+    <testcase name="testSecPMPMS_0900" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.536" classname="ActsPMSUnloadTest" level="-1" />
+  </testsuite>
+  <testsuite name="ActsPMSUpdatePermissionTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="23.605" timestamp="1970-01-01T00:13:43.537" modulename="ActsPMSTest">
+    <testcase name="testSecPMUpdatePMFlags_6200" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.537" classname="ActsPMSUpdatePermissionTest" level="-1" />
+    <testcase name="testSecPMUpdatePMFlags_6300" status="run" result="completed" time="0.002" timestamp="1970-01-01T00:13:43.538" classname="ActsPMSUpdatePermissionTest" level="-1" />
+    <testcase name="testSecPMUpdatePMFlags_6400" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.540" classname="ActsPMSUpdatePermissionTest" level="-1" />
+    <testcase name="testSecPMUpdatePMFlags_6500" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:43.885" classname="ActsPMSUpdatePermissionTest" level="-1" />
+    <testcase name="testSecPMUpdatePMFlags_6600" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:43.886" classname="ActsPMSUpdatePermissionTest" level="-1" />
+    <testcase name="testSecPMUpdatePMFlags_6700" status="run" result="completed" time="11.616" timestamp="1970-01-01T00:13:43.888" classname="ActsPMSUpdatePermissionTest" level="-1" />
+    <testcase name="testSecPMUpdatePMFlags_6800" status="run" result="completed" time="11.638" timestamp="1970-01-01T00:13:55.504" classname="ActsPMSUpdatePermissionTest" level="-1" />
+  </testsuite>
+  <testsuite name="BroadcastPublishTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0.67" timestamp="1970-01-01T00:12:00.059" modulename="ActsSamgrTest">
+    <testcase name="testPublish0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.060" classname="BroadcastPublishTest" level="-1" />
+    <testcase name="testPublish0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.060" classname="BroadcastPublishTest" level="-1" />
+    <testcase name="testPublish0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.060" classname="BroadcastPublishTest" level="-1" />
+    <testcase name="testPublish0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.060" classname="BroadcastPublishTest" level="-1" />
+    <testcase name="testPublish0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.060" classname="BroadcastPublishTest" level="-1" />
+    <testcase name="testPublish0060" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.060" classname="BroadcastPublishTest" level="-1" />
+    <testcase name="testPublish0070" status="run" result="completed" time="0.669" timestamp="1970-01-01T00:12:00.061" classname="BroadcastPublishTest" level="-1" />
+  </testsuite>
+  <testsuite name="BroadcastSubscribeTest" tests="15" failures="0" disabled="0" skipped="0" errors="0" time="0.026" timestamp="1970-01-01T00:12:00.730" modulename="ActsSamgrTest">
+    <testcase name="testAddTopic0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testAddTopic0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testSubscribe0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testSubscribe0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testSubscribe0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testSubscribe0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testUnsubscribe0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testUnsubscribe0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testUnsubscribe0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testUnsubscribe0040" status="run" result="completed" time="0.025" timestamp="1970-01-01T00:12:00.730" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testModifyConsumer0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.757" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testModifyConsumer0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.757" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testModifyConsumer0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.757" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testModifyConsumer0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.757" classname="BroadcastSubscribeTest" level="-1" />
+    <testcase name="testModifyConsumer0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:00.757" classname="BroadcastSubscribeTest" level="-1" />
+  </testsuite>
+  <testsuite name="CommonTest" tests="9" failures="0" disabled="0" skipped="0" errors="0" time="1.882" timestamp="1970-01-01T00:12:00.757" modulename="ActsSamgrTest">
+    <testcase name="testCommon0010" status="run" result="completed" time="0.202" timestamp="1970-01-01T00:12:00.757" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0020" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:00.960" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0030" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:01.170" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0040" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:01.380" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0050" status="run" result="completed" time="0.21" timestamp="1970-01-01T00:12:01.590" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0060" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:01.800" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0070" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:02.010" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0080" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:02.220" classname="CommonTest" level="-1" />
+    <testcase name="testCommon0090" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:02.430" classname="CommonTest" level="-1" />
+  </testsuite>
+  <testsuite name="DefaultFeatureApiTest" tests="13" failures="0" disabled="0" skipped="0" errors="0" time="0.12" timestamp="1970-01-01T00:12:02.640" modulename="ActsSamgrTest">
+    <testcase name="testRegisterDefaultFeatureApi0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testRegisterDefaultFeatureApi0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testRegisterDefaultFeatureApi0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testRegisterDefaultFeatureApi0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testRegisterDefaultFeatureApi0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testGetDefaultFeatureApi0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testGetDefaultFeatureApi0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testGetDefaultFeatureApi0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.640" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testGetDefaultFeatureApi0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.641" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testUnregisterDefaultFeatureApi0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.641" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testUnregisterDefaultFeatureApi0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.641" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testUnregisterDefaultFeatureApi0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.641" classname="DefaultFeatureApiTest" level="-1" />
+    <testcase name="testUnregisterDefaultFeatureApi0040" status="run" result="completed" time="0.118" timestamp="1970-01-01T00:12:02.641" classname="DefaultFeatureApiTest" level="-1" />
+  </testsuite>
+  <testsuite name="FeatureApiTest" tests="20" failures="0" disabled="0" skipped="0" errors="0" time="0.044" timestamp="1970-01-01T00:12:02.760" modulename="ActsSamgrTest">
+    <testcase name="testRegisterFeatureApi0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testRegisterFeatureApi0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testRegisterFeatureApi0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testRegisterFeatureApi0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testRegisterFeatureApi0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testRegisterFeatureApi0060" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testRegisterFeatureApi0070" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testRegisterFeatureApi0080" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.760" classname="FeatureApiTest" level="-1" />
+    <testcase name="testGetFeatureApi0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.761" classname="FeatureApiTest" level="-1" />
+    <testcase name="testGetFeatureApi0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.761" classname="FeatureApiTest" level="-1" />
+    <testcase name="testGetFeatureApi0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.761" classname="FeatureApiTest" level="-1" />
+    <testcase name="testGetFeatureApi0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.761" classname="FeatureApiTest" level="-1" />
+    <testcase name="testGetFeatureApi0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.761" classname="FeatureApiTest" level="-1" />
+    <testcase name="testGetFeatureApi0060" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.761" classname="FeatureApiTest" level="-1" />
+    <testcase name="testUnregisterFeatureApi0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.761" classname="FeatureApiTest" level="-1" />
+    <testcase name="testUnregisterFeatureApi0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.762" classname="FeatureApiTest" level="-1" />
+    <testcase name="testUnregisterFeatureApi0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.762" classname="FeatureApiTest" level="-1" />
+    <testcase name="testUnregisterFeatureApi0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.762" classname="FeatureApiTest" level="-1" />
+    <testcase name="testUnregisterFeatureApi0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.762" classname="FeatureApiTest" level="-1" />
+    <testcase name="testUnregisterFeatureApi0060" status="run" result="completed" time="0.042" timestamp="1970-01-01T00:12:02.762" classname="FeatureApiTest" level="-1" />
+  </testsuite>
+  <testsuite name="FeatureTest" tests="13" failures="0" disabled="0" skipped="0" errors="0" time="0.456" timestamp="1970-01-01T00:12:02.805" modulename="ActsSamgrTest">
+    <testcase name="testRegisterFeature0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.805" classname="FeatureTest" level="-1" />
+    <testcase name="testRegisterFeature0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.805" classname="FeatureTest" level="-1" />
+    <testcase name="testRegisterFeature0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.805" classname="FeatureTest" level="-1" />
+    <testcase name="testRegisterFeature0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.805" classname="FeatureTest" level="-1" />
+    <testcase name="testRegisterFeature0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.805" classname="FeatureTest" level="-1" />
+    <testcase name="testRegisterFeature0060" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.805" classname="FeatureTest" level="-1" />
+    <testcase name="testUnregisterFeature0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.806" classname="FeatureTest" level="-1" />
+    <testcase name="testUnregisterFeature0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.806" classname="FeatureTest" level="-1" />
+    <testcase name="testUnregisterFeature0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.806" classname="FeatureTest" level="-1" />
+    <testcase name="testUnregisterFeature0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.806" classname="FeatureTest" level="-1" />
+    <testcase name="testUnregisterFeature0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.806" classname="FeatureTest" level="-1" />
+    <testcase name="testUnregisterFeature0060" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:02.806" classname="FeatureTest" level="-1" />
+    <testcase name="testUnregisterFeature0070" status="run" result="completed" time="0.111" timestamp="1970-01-01T00:12:03.150" classname="FeatureTest" level="-1" />
+  </testsuite>
+  <testsuite name="IUnknownTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="1970-01-01T00:12:03.261" modulename="ActsSamgrTest">
+    <testcase name="testGetIUnknown0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.262" classname="IUnknownTest" level="-1" />
+    <testcase name="testGetObject0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.262" classname="IUnknownTest" level="-1" />
+    <testcase name="testQueryInterface0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.262" classname="IUnknownTest" level="-1" />
+    <testcase name="testQueryInterface0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.262" classname="IUnknownTest" level="-1" />
+    <testcase name="testQueryInterface0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.262" classname="IUnknownTest" level="-1" />
+  </testsuite>
+  <testsuite name="LiteIPCClientTest" tests="11" failures="0" disabled="0" skipped="0" errors="0" time="0.011" timestamp="1970-01-01T00:12:03.262" modulename="ActsSamgrTest">
+    <testcase name="testIPCClient0010" status="run" result="completed" time="0.007" timestamp="1970-01-01T00:12:03.262" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.270" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.271" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.271" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0060" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.272" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0070" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.272" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0100" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.273" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0110" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.273" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0120" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.273" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0130" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.273" classname="LiteIPCClientTest" level="-1" />
+    <testcase name="testIPCClient0140" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:03.274" classname="LiteIPCClientTest" level="-1" />
+  </testsuite>
+  <testsuite name="LiteIPCFeatureTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.832" timestamp="1970-01-01T00:12:03.618" modulename="ActsSamgrTest">
+    <testcase name="testIPCFeature0010" status="run" result="completed" time="0.201" timestamp="1970-01-01T00:12:03.618" classname="LiteIPCFeatureTest" level="-1" />
+    <testcase name="testIPCFeature0020" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:03.820" classname="LiteIPCFeatureTest" level="-1" />
+    <testcase name="testIPCFeature0030" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:04.030" classname="LiteIPCFeatureTest" level="-1" />
+    <testcase name="testIPCFeature0040" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:04.240" classname="LiteIPCFeatureTest" level="-1" />
+  </testsuite>
+  <testsuite name="LiteIPCServiceTest" tests="5" failures="0" disabled="0" skipped="0" errors="0" time="1.049" timestamp="1970-01-01T00:12:04.450" modulename="ActsSamgrTest">
+    <testcase name="testIPCService0010" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:04.450" classname="LiteIPCServiceTest" level="-1" />
+    <testcase name="testIPCService0020" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:04.660" classname="LiteIPCServiceTest" level="-1" />
+    <testcase name="testIPCService0030" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:04.870" classname="LiteIPCServiceTest" level="-1" />
+    <testcase name="testIPCService0040" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:05.080" classname="LiteIPCServiceTest" level="-1" />
+    <testcase name="testIPCService0050" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:05.290" classname="LiteIPCServiceTest" level="-1" />
+  </testsuite>
+  <testsuite name="SendRequestTest" tests="10" failures="0" disabled="0" skipped="0" errors="0" time="2.201" timestamp="1970-01-01T00:12:05.500" modulename="ActsSamgrTest">
+    <testcase name="testSyncCall0010" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:05.500" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0010" status="run" result="completed" time="0.218" timestamp="1970-01-01T00:12:05.710" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0020" status="run" result="completed" time="0.201" timestamp="1970-01-01T00:12:05.928" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0030" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:06.130" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0040" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:06.340" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0050" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:06.550" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0060" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:06.760" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0070" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:06.970" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0080" status="run" result="completed" time="0.251" timestamp="1970-01-01T00:12:07.180" classname="SendRequestTest" level="-1" />
+    <testcase name="testSendRequest0090" status="run" result="completed" time="0.269" timestamp="1970-01-01T00:12:07.431" classname="SendRequestTest" level="-1" />
+  </testsuite>
+  <testsuite name="SendResponseTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0.838" timestamp="1970-01-01T00:12:07.701" modulename="ActsSamgrTest">
+    <testcase name="testSendResponse0010" status="run" result="completed" time="0.208" timestamp="1970-01-01T00:12:07.701" classname="SendResponseTest" level="-1" />
+    <testcase name="testSendResponse0020" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:07.910" classname="SendResponseTest" level="-1" />
+    <testcase name="testSendResponse0030" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:08.120" classname="SendResponseTest" level="-1" />
+    <testcase name="testSendResponseByIdentity0020" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:08.330" classname="SendResponseTest" level="-1" />
+  </testsuite>
+  <testsuite name="SendShareRequestTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.839" timestamp="1970-01-01T00:12:08.540" modulename="ActsSamgrTest">
+    <testcase name="testSendSharedRequest0010" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:08.540" classname="SendShareRequestTest" level="-1" />
+    <testcase name="testSendSharedDirectRequest0010" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:08.960" classname="SendShareRequestTest" level="-1" />
+  </testsuite>
+  <testsuite name="ServiceTest" tests="10" failures="0" disabled="0" skipped="0" errors="0" time="0.099" timestamp="1970-01-01T00:12:09.380" modulename="ActsSamgrTest">
+    <testcase name="testRegisterService0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testRegisterService0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testRegisterService0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testUnregisterService0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testUnregisterService0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testUnregisterService0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testUnregisterService0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testUnregisterService0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testUnregisterService0060" status="run" result="completed" time="0.078" timestamp="1970-01-01T00:12:09.380" classname="ServiceTest" level="-1" />
+    <testcase name="testBootstrap0010" status="run" result="completed" time="0.021" timestamp="1970-01-01T00:12:09.458" classname="ServiceTest" level="-1" />
+  </testsuite>
+  <testsuite name="TaskpoolNoTaskTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.209" timestamp="1970-01-01T00:12:09.480" modulename="ActsSamgrTest">
+    <testcase name="testNoTask0010" status="run" result="completed" time="0.209" timestamp="1970-01-01T00:12:09.480" classname="TaskpoolNoTaskTest" level="-1" />
+  </testsuite>
+  <testsuite name="TaskpoolSharedTaskTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="2.099" timestamp="1970-01-01T00:12:09.690" modulename="ActsSamgrTest">
+    <testcase name="testSharedTask0010" status="run" result="completed" time="0.629" timestamp="1970-01-01T00:12:09.690" classname="TaskpoolSharedTaskTest" level="-1" />
+    <testcase name="testSharedTask0020" status="run" result="completed" time="0.629" timestamp="1970-01-01T00:12:10.320" classname="TaskpoolSharedTaskTest" level="-1" />
+    <testcase name="testSharedTask0030" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:10.950" classname="TaskpoolSharedTaskTest" level="-1" />
+    <testcase name="testSharedTask0040" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:11.370" classname="TaskpoolSharedTaskTest" level="-1" />
+  </testsuite>
+  <testsuite name="TaskpoolSingleTaskTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="1.68" timestamp="1970-01-01T00:12:11.999" modulename="ActsSamgrTest">
+    <testcase name="testSingleTask0010" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:12.000" classname="TaskpoolSingleTaskTest" level="-1" />
+    <testcase name="testSingleTask0020" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:12.420" classname="TaskpoolSingleTaskTest" level="-1" />
+    <testcase name="testSingleTask0030" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:12.840" classname="TaskpoolSingleTaskTest" level="-1" />
+    <testcase name="testSingleTask0040" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:13.260" classname="TaskpoolSingleTaskTest" level="-1" />
+  </testsuite>
+  <testsuite name="TaskpoolSpecifiedTaskTest" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="1.679" timestamp="1970-01-01T00:12:13.680" modulename="ActsSamgrTest">
+    <testcase name="testSpecifiedTask0010" status="run" result="completed" time="0.629" timestamp="1970-01-01T00:12:13.680" classname="TaskpoolSpecifiedTaskTest" level="-1" />
+    <testcase name="testSpecifiedTask0020" status="run" result="completed" time="0.629" timestamp="1970-01-01T00:12:14.310" classname="TaskpoolSpecifiedTaskTest" level="-1" />
+    <testcase name="testSpecifiedTask0030" status="run" result="completed" time="0.419" timestamp="1970-01-01T00:12:14.940" classname="TaskpoolSpecifiedTaskTest" level="-1" />
+  </testsuite>
+</testsuites>

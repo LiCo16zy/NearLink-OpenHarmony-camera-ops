@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites tests="17" failures="0" disabled="0" errors="0" time="0.361" timestamp="1970-01-01T00:15:22.583" name="AllTests">
+  <testsuite name="ParameterTest" tests="17" failures="0" disabled="0" skipped="0" errors="0" time="0.361" timestamp="1970-01-01T00:15:22.584">
+    <testcase name="SUB_START_Para_Setting_Legal_0010" status="run" result="completed" time="0.071" timestamp="1970-01-01T00:15:22.584" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Setting_Legal_0020" status="run" result="completed" time="0.142" timestamp="1970-01-01T00:15:22.656" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Setting_ilLegal_0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.798" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Setting_ilLegal_0020" status="run" result="completed" time="0.062" timestamp="1970-01-01T00:15:22.798" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Setting_ilLegal_key_0010" status="run" result="completed" time="0.082" timestamp="1970-01-01T00:15:22.861" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Setting_ilLegal_key_0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.943" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Setting_ilLegal_value_0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_Legal_0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_Legal_0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_Legal_0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_ilLegal_0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_ilLegal_0020" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_ilLegal_0030" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_ilLegal_0040" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.944" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_ilLegal_0050" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.945" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_ilLegal_0060" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.945" classname="ParameterTest" level="-1" />
+    <testcase name="SUB_START_Para_Getting_ReadOnly_0010" status="run" result="completed" time="0" timestamp="1970-01-01T00:15:22.945" classname="ParameterTest" level="-1" />
+  </testsuite>
+</testsuites>

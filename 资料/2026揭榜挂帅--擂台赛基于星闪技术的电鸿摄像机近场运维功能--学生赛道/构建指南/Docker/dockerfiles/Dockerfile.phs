@@ -1,0 +1,158 @@
+# syntax=docker/dockerfile:1.7
+ARG BASE_IMAGE=ubuntu:20.04
+FROM ${BASE_IMAGE}
+
+ARG DEBIAN_FRONTEND=noninteractive
+ARG APT_MIRROR=
+ARG TZ=Asia/Shanghai
+ARG USERNAME=chenzhy223
+ARG USER_UID=1000
+ARG USER_GID=1000
+ARG GIT_USER_NAME=chenzhy223
+ARG GIT_USER_EMAIL=861925940@qq.com
+
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
+RUN { \
+      echo 'Acquire::Retries "5";'; \
+      echo 'Acquire::http::Timeout "60";'; \
+      echo 'Acquire::https::Timeout "60";'; \
+      echo 'Acquire::http::No-Cache "true";'; \
+      echo 'Acquire::BrokenProxy "true";'; \
+    } > /etc/apt/apt.conf.d/80-retries
+
+RUN apt-get update && \
+    apt-get install -y lsb-release && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN : "${APT_MIRROR:=http://mirrors.aliyun.com/ubuntu}" && \
+    { \
+      echo "deb ${APT_MIRROR} focal main restricted universe multiverse"; \
+      echo "deb-src ${APT_MIRROR} focal main restricted universe multiverse"; \
+      echo "deb ${APT_MIRROR} focal-security main restricted universe multiverse"; \
+      echo "deb-src ${APT_MIRROR} focal-security main restricted universe multiverse"; \
+      echo "deb ${APT_MIRROR} focal-updates main restricted universe multiverse"; \
+      echo "deb-src ${APT_MIRROR} focal-updates main restricted universe multiverse"; \
+      echo "deb ${APT_MIRROR} focal-backports main restricted universe multiverse"; \
+      echo "deb-src ${APT_MIRROR} focal-backports main restricted universe multiverse"; \
+      echo "deb ${APT_MIRROR} focal-proposed main restricted universe multiverse"; \
+      echo "deb-src ${APT_MIRROR} focal-proposed main restricted universe multiverse"; \
+    } > /etc/apt/sources.list
+
+RUN apt-get update && \
+    apt-get install -y \
+      apt-utils autoconf automake autopoint bash bc binutils binutils-dev bison build-essential ca-certificates \
+      ccache cmake cpio curl default-jdk default-jre device-tree-compiler dosfstools \
+      doxygen e2fsprogs flex g++ g++-multilib gcc \
+      gcc-multilib genext2fs gettext git git-core git-lfs gnupg gnutls-bin \
+      gosu gperf grsync jfsutils kmod lib32ncurses5-dev lib32z-dev lib32z1-dev \
+      libc6-dev libc6-dev-i386 libdwarf-dev libelf-dev libffi-dev libgl1-mesa-dev \
+      libglib2.0-dev liblz4-tool libncurses5 libncurses5-dev libncursesw5 \
+      libncursesw5-dev libpixman-1-dev libssl-dev libstdc++6 libtool libtinfo-dev \
+      libtinfo5 libudev-dev libx11-dev libxcursor-dev libxi-dev libxinerama-dev libxml2-dev \
+      libxml2-utils libxrandr-dev locales m4 make mtd-utils mtools openjdk-8-jre tree \
+      openssh-client openssl po4a ppp pcmciautils perl pkg-config python3.8 \
+      python3.8-distutils python3-pip quota reiserfsprogs rsync ruby scons \
+      squashfs-tools ssh sudo tar texinfo tzdata u-boot-tools unzip vim wget \
+      x11proto-core-dev xfsprogs xsltproc xxd zip zlib1g-dev \
+    && apt-get install -y --fix-missing gcc-arm-none-eabi \
+    && PYTHON38_PATH="$(command -v python3.8)" \
+    && update-alternatives --install /usr/bin/python python "${PYTHON38_PATH}" 1 \
+    && update-alternatives --install /usr/bin/python3 python3 "${PYTHON38_PATH}" 1 \
+    && rm -rf /var/lib/apt/lists/*
+
+# repo 工具（gitee 镜像）+ requests 依赖
+RUN curl -fsSL https://gitee.com/oschina/repo/raw/fork_flow/repo-py3 -o /bin/repo \
+    && pip3 install -i https://repo.huaweicloud.com/repository/pypi/simple requests \
+    && chmod a+x /bin/repo \
+    && test -s /bin/repo
+
+# 时区 + 将 /bin/sh 从 dash 切换为 bash
+RUN ln -snf "/usr/share/zoneinfo/${TZ}" /etc/localtime && \
+    echo "${TZ}" > /etc/timezone && \
+    ln -sf bash /bin/sh
+
+RUN sed -i 's/^# *zh_CN.UTF-8 UTF-8/zh_CN.UTF-8 UTF-8/' /etc/locale.gen && \
+    locale-gen zh_CN.UTF-8 && \
+    update-locale LANG=zh_CN.UTF-8 LC_ALL=zh_CN.UTF-8
+
+ENV WORKSPACE=/workspace \
+    PROJECT_HOME=/workspace/projects/phs \
+    PHS_HOME=/workspace/projects/phs \
+    PHS_DEPS_HOME=/workspace/deps/phs \
+    HISI_SDK_HOME=/workspace/deps/hi_sdk \
+    PHS_CACHE_HOME=/workspace/cache/phs \
+    CCACHE_DIR=/workspace/cache/ccache/phs \
+    HOME=/home/${USERNAME} \
+    PATH=/opt/linux/x86-arm/aarch64-v01c01-linux-musl-gcc/bin:/usr/lib/ccache:$PATH
+
+ENV TZ=${TZ}
+ENV LANG=zh_CN.UTF-8
+ENV LANGUAGE=zh_CN:zh
+ENV LC_ALL=zh_CN.UTF-8
+
+RUN mkdir -p \
+      /workspace/projects/phs \
+      /workspace/deps/phs \
+      /workspace/deps/hi_sdk \
+      /workspace/cache/phs \
+      /workspace/cache/ccache/phs \
+      /workspace/scripts \
+    && git lfs install --system || true
+
+# aarch64 musl 交叉编译链安装包
+COPY packages/toolchain/hi3519dv500/gcc-20240819-aarch64-v01c01-linux-musl.tar.gz /tmp/gcc-toolchain.tar.gz
+# OpenHarmony hb 构建工具源码
+COPY packages/ohos-build/hb /tmp/ohos-build-hb
+
+RUN groupadd --gid "${USER_GID}" "${USERNAME}" \
+    && useradd --uid "${USER_UID}" --gid "${USER_GID}" -m -s /bin/bash "${USERNAME}" \
+    && echo "${USERNAME} ALL=(ALL) NOPASSWD:ALL" > "/etc/sudoers.d/${USERNAME}" \
+    && chmod 0440 "/etc/sudoers.d/${USERNAME}" \
+    && chown -R "${USERNAME}:${USERNAME}" \
+      "/home/${USERNAME}" \
+      /workspace
+
+USER ${USERNAME}
+
+# Git 全局配置
+RUN git config --global user.name "${GIT_USER_NAME}" \
+    && git config --global user.email "${GIT_USER_EMAIL}" \
+    && git config --global credential.helper store
+
+# SSH 密钥：优先使用 config/.ssh 下的预配置密钥，不存在则自动生成
+COPY config/.ssh /tmp/preconfigured-ssh/
+RUN SSH_HOME="/home/${USERNAME}/.ssh" && \
+    if [ -s /tmp/preconfigured-ssh/id_rsa ]; then \
+      mkdir -p "${SSH_HOME}" && \
+      cp /tmp/preconfigured-ssh/id_rsa "${SSH_HOME}/id_rsa" && \
+      cp /tmp/preconfigured-ssh/id_rsa.pub "${SSH_HOME}/id_rsa.pub" && \
+      chmod 700 "${SSH_HOME}" && \
+      chmod 600 "${SSH_HOME}/id_rsa" && \
+      chmod 644 "${SSH_HOME}/id_rsa.pub"; \
+    else \
+      ssh-keygen -t rsa -C "${GIT_USER_EMAIL}" -N "" -f "${SSH_HOME}/id_rsa"; \
+    fi && \
+    sudo rm -rf /tmp/preconfigured-ssh
+
+# 安装 aarch64 musl 交叉编译链，安装脚本会写入 /etc/profile
+RUN cd /tmp \
+    && tar -xzf gcc-toolchain.tar.gz \
+    && cd gcc-20240819-aarch64-v01c01-linux-musl \
+    && sudo ./install_gcc_toolchain.sh \
+    && sudo rm -rf /tmp/gcc-toolchain.tar.gz /tmp/gcc-20240819-aarch64-v01c01-linux-musl
+
+# 交互式 shell 自动加载 /etc/profile（含交叉编译链 PATH）
+RUN echo '[ -f /etc/profile ] && . /etc/profile' >> "/home/${USERNAME}/.bashrc"
+
+# 安装 OpenHarmony hb 构建工具（pip --user 安装）
+RUN python3 -m pip install --user /tmp/ohos-build-hb \
+    && grep -qxF "export PATH=\"/home/${USERNAME}/.local/bin:\$PATH\"" ~/.bashrc \
+       || echo "export PATH=\"/home/${USERNAME}/.local/bin:\$PATH\"" >> ~/.bashrc \
+    && sudo rm -rf /tmp/ohos-build-hb
+
+# 安装 pycryptodome 加密库（pip --user 安装）
+RUN python3 -m pip install --user pycryptodome
+
+WORKDIR /workspace/projects/phs
+CMD ["/bin/bash"]

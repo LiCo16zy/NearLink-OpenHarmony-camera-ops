@@ -1,0 +1,6 @@
+# cd /
+# 
+# /bin/cksum /bin
+cksum: /bin: Is a directory
+4294967295 0 /bin
+# 

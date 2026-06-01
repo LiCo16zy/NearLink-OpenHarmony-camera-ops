@@ -1,0 +1,5 @@
+Hi3519DV500芯片的交叉编译工具链，编译ohos系统、海思SDK都需要用到
+
+
+
+注：Hi3519DV500适配的ohos不走openharmony官方的那一套，单独的，交叉编译链不是openharmony给的交叉编译链。

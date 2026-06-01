@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites tests="7" failures="0" disabled="0" errors="0" time="0.004" timestamp="1970-01-01T00:14:42.522" name="AllTests">
+  <testsuite name="SamgrApiTest" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0.003" timestamp="1970-01-01T00:14:42.522">
+    <testcase name="SUB_START_Bootstrap_Samgr_0100" status="run" result="completed" time="0" timestamp="1970-01-01T00:14:42.522" classname="SamgrApiTest" level="-1" />
+    <testcase name="SUB_START_Bootstrap_Samgr_0200" status="run" result="completed" time="0" timestamp="1970-01-01T00:14:42.522" classname="SamgrApiTest" level="-1" />
+    <testcase name="SUB_START_Bootstrap_Samgr_0300" status="run" result="completed" time="0" timestamp="1970-01-01T00:14:42.523" classname="SamgrApiTest" level="-1" />
+    <testcase name="SUB_START_Bootstrap_Samgr_0400" status="run" result="completed" time="0" timestamp="1970-01-01T00:14:42.523" classname="SamgrApiTest" level="-1" />
+    <testcase name="SUB_START_Bootstrap_Samgr_0500" status="run" result="completed" time="0" timestamp="1970-01-01T00:14:42.524" classname="SamgrApiTest" level="-1" />
+    <testcase name="SUB_START_Bootstrap_Samgr_0600" status="run" result="completed" time="0" timestamp="1970-01-01T00:14:42.525" classname="SamgrApiTest" level="-1" />
+    <testcase name="SUB_START_Bootstrap_Samgr_0700" status="run" result="completed" time="0" timestamp="1970-01-01T00:14:42.525" classname="SamgrApiTest" level="-1" />
+  </testsuite>
+</testsuites>

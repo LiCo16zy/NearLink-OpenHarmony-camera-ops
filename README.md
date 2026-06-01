@@ -47,3 +47,9 @@
 
 学习git相关知识可以看 [Git+Github核心概念大串讲，从零到一全攻略，详细实战教程](https://www.bilibili.com/video/BV1ySLc6QEcB/?share_source=copy_web&vd_source=42ec54d7e97ca1e974b3bf4e58d7d820)
 
+> **6.1**
+
+- 挑战杯官网报名 **已开放**
+	- [报名入口](https://2026.tiaozhanbei.net/)
+- 电鸿SDK 电鸿SDK构建参考《构建指南》**已放出** 已整理到本仓库的 `/资料/2026揭榜挂帅--擂台赛基于星闪技术的电鸿摄像机近场运维功能--学生赛道/构建指南`
+- 我自己购买了2片小熊派的星闪模组开发板，有调试需要跟我说。

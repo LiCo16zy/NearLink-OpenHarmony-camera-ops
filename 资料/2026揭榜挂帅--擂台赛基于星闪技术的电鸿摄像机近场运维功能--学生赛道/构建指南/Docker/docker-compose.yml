@@ -1,0 +1,34 @@
+services:
+  # ----------------------------
+  # PHS开发容器
+  # ----------------------------
+ 
+  # [✓ 已验证]
+  openphs-dev:
+    image: ${PHS_IMAGE:-phs-dev:dev}
+    user: chenzhy223
+    working_dir: /workspace/projects/phs
+    stdin_open: true
+    tty: true
+    environment:
+      WORKSPACE: /workspace
+      PROJECT_HOME: /workspace/projects/phs
+      PHS_HOME: /workspace/projects/phs
+      TZ: ${TZ:-Asia/Shanghai}
+    container_name: openphs-dev
+    volumes:
+      # 挂载PHS工作区到容器，不能是win平台的路径
+      - proj_phs_workspace_openphs:/workspace/projects/phs
+      - shared_phs_deps:/workspace/deps/phs
+      - shared_hi_sdk:/workspace/deps/hi_sdk
+  # ----------------------------
+volumes:
+  # PHS工作区：独立volume
+  proj_phs_workspace_openphs:
+    name: proj_phs_workspace_openphs
+  
+  # PHS共享资源
+  shared_phs_deps:
+    name: shared_phs_deps
+  shared_hi_sdk:
+    name: shared_hi_sdk

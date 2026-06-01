@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites tests="40" failures="0" disabled="0" errors="0" time="9.449" timestamp="1970-01-01T00:12:52.451" name="AllTests">
+  <testsuite name="HksAesTest" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="2.682" timestamp="1970-01-01T00:12:52.451">
+    <testcase name="HksAesTest001" status="run" result="completed" time="0.764" timestamp="1970-01-01T00:12:52.451" classname="HksAesTest" level="1" />
+    <testcase name="HksAesTest002" status="run" result="completed" time="0.798" timestamp="1970-01-01T00:12:53.216" classname="HksAesTest" level="1" />
+    <testcase name="HksAesTest003" status="run" result="completed" time="0.774" timestamp="1970-01-01T00:12:54.015" classname="HksAesTest" level="1" />
+    <testcase name="HksAesTest004" status="run" result="completed" time="0.344" timestamp="1970-01-01T00:12:54.789" classname="HksAesTest" level="1" />
+  </testsuite>
+  <testsuite name="HksAgreementTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.466" timestamp="1970-01-01T00:12:55.134">
+    <testcase name="HksAgreementTest001" status="run" result="completed" time="0.081" timestamp="1970-01-01T00:12:55.134" classname="HksAgreementTest" level="1" />
+    <testcase name="HksAgreementTest002" status="run" result="completed" time="0.121" timestamp="1970-01-01T00:12:55.478" classname="HksAgreementTest" level="1" />
+  </testsuite>
+  <testsuite name="HksBnExpModTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.159" timestamp="1970-01-01T00:12:55.600">
+    <testcase name="HksBnExpModTest001" status="run" result="completed" time="0.159" timestamp="1970-01-01T00:12:55.600" classname="HksBnExpModTest" level="1" />
+  </testsuite>
+  <testsuite name="HksCipherTest" tests="12" failures="0" disabled="0" skipped="0" errors="0" time="3.539" timestamp="1970-01-01T00:12:55.760">
+    <testcase name="HksCipherTest001" status="run" result="completed" time="0.008" timestamp="1970-01-01T00:12:55.760" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest002" status="run" result="completed" time="0.02" timestamp="1970-01-01T00:12:55.768" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest003" status="run" result="completed" time="0.017" timestamp="1970-01-01T00:12:56.115" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest004" status="run" result="completed" time="0.017" timestamp="1970-01-01T00:12:56.463" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest005" status="run" result="completed" time="0.017" timestamp="1970-01-01T00:12:56.815" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest006" status="run" result="completed" time="0.017" timestamp="1970-01-01T00:12:57.168" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest007" status="run" result="completed" time="0.018" timestamp="1970-01-01T00:12:57.523" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest008" status="run" result="completed" time="0.018" timestamp="1970-01-01T00:12:57.880" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest009" status="run" result="completed" time="0.018" timestamp="1970-01-01T00:12:58.236" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest010" status="run" result="completed" time="0.016" timestamp="1970-01-01T00:12:58.254" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest011" status="run" result="completed" time="0.014" timestamp="1970-01-01T00:12:58.599" classname="HksCipherTest" level="1" />
+    <testcase name="HksCipherTest012" status="run" result="completed" time="0.017" timestamp="1970-01-01T00:12:58.947" classname="HksCipherTest" level="1" />
+  </testsuite>
+  <testsuite name="HksCurve25519Test" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="1.496" timestamp="1970-01-01T00:12:59.300">
+    <testcase name="HksCurve25519Test001" status="run" result="completed" time="0.413" timestamp="1970-01-01T00:12:59.300" classname="HksCurve25519Test" level="1" />
+    <testcase name="HksCurve25519Test002" status="run" result="completed" time="0.037" timestamp="1970-01-01T00:13:00.050" classname="HksCurve25519Test" level="1" />
+    <testcase name="HksCurve25519Test003" status="run" result="completed" time="0.355" timestamp="1970-01-01T00:13:00.088" classname="HksCurve25519Test" level="1" />
+    <testcase name="HksCurve25519Test004" status="run" result="completed" time="0.014" timestamp="1970-01-01T00:13:00.443" classname="HksCurve25519Test" level="1" />
+  </testsuite>
+  <testsuite name="HksDeleteTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.012" timestamp="1970-01-01T00:13:00.796">
+    <testcase name="HksDeleteTest001" status="run" result="completed" time="0.012" timestamp="1970-01-01T00:13:00.796" classname="HksDeleteTest" level="1" />
+  </testsuite>
+  <testsuite name="HksDeriveTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.353" timestamp="1970-01-01T00:13:00.808">
+    <testcase name="HksDeriveTest001" status="run" result="completed" time="0.013" timestamp="1970-01-01T00:13:00.808" classname="HksDeriveTest" level="1" />
+    <testcase name="HksDeriveTest002" status="run" result="completed" time="0.002" timestamp="1970-01-01T00:13:01.159" classname="HksDeriveTest" level="1" />
+  </testsuite>
+  <testsuite name="HksExistTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.35" timestamp="1970-01-01T00:13:01.162">
+    <testcase name="HksExistTest001" status="run" result="completed" time="0.012" timestamp="1970-01-01T00:13:01.162" classname="HksExistTest" level="1" />
+  </testsuite>
+  <testsuite name="HksGenerateKeyTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.023" timestamp="1970-01-01T00:13:01.512">
+    <testcase name="HksGenerateKeyTest001" status="run" result="completed" time="0.023" timestamp="1970-01-01T00:13:01.512" classname="HksGenerateKeyTest" level="1" />
+  </testsuite>
+  <testsuite name="HksGenerateRandomTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.002" timestamp="1970-01-01T00:13:01.535">
+    <testcase name="HksGenerateRandomTest001" status="run" result="completed" time="0.002" timestamp="1970-01-01T00:13:01.535" classname="HksGenerateRandomTest" level="1" />
+  </testsuite>
+  <testsuite name="HksHashTest" tests="1" failures="0" disabled="0" skipped="0" errors="0" time="0.001" timestamp="1970-01-01T00:13:01.538">
+    <testcase name="HksHashTest001" status="run" result="completed" time="0.001" timestamp="1970-01-01T00:13:01.538" classname="HksHashTest" level="1" />
+  </testsuite>
+  <testsuite name="HksMacTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.36" timestamp="1970-01-01T00:13:01.539">
+    <testcase name="HksMacTest001" status="run" result="completed" time="0.002" timestamp="1970-01-01T00:13:01.539" classname="HksMacTest" level="1" />
+    <testcase name="HksMacTest002" status="run" result="completed" time="0.358" timestamp="1970-01-01T00:13:01.541" classname="HksMacTest" level="1" />
+  </testsuite>
+  <testsuite name="HksOthersTest" tests="8" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="1970-01-01T00:13:01.900">
+    <testcase name="HksOthersTest001" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+    <testcase name="HksOthersTest002" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+    <testcase name="HksOthersTest003" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+    <testcase name="HksOthersTest004" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+    <testcase name="HksOthersTest005" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+    <testcase name="HksOthersTest006" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+    <testcase name="HksOthersTest007" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+    <testcase name="HksOthersTest008" status="run" result="completed" time="0" timestamp="1970-01-01T00:13:01.900" classname="HksOthersTest" level="1" />
+  </testsuite>
+</testsuites>
